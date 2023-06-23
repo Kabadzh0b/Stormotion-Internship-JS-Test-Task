@@ -61,3 +61,13 @@
     border: 2px solid #fa6060;
     background-color: #5a5aec;
 }
+
+.change-mod-button{
+    border: 2px solid blue;
+    border-radius: 25px;
+    width: calc(30vw + 10px);
+    height: 10vh;
+    margin-top: 5px;
+    font-size: 30px;
+    background-color: #5a5aec;
+}

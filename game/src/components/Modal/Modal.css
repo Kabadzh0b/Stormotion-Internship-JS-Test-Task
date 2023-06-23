@@ -24,3 +24,28 @@
 .incorrect {
     border-color: red !important;
 }
+
+.hidden{
+    display: none;
+}
+
+.warning{
+    color: #fc5f5f;
+}
+
+.btn{
+    width: calc(50% - 10px);
+    height: 50px;
+    border-radius: 25px;
+}
+
+.mode{
+    border: 2px solid #fc5f5f;
+    background-color: #5a5aec;
+}
+
+.cancel{
+    border: 2px solid #5a5aec;
+    background-color: #fc5f5f;
+    margin-left: 10px;
+}
