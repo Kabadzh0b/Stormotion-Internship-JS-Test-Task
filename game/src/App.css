@@ -9,6 +9,16 @@
     display: flex;
 }
 
+.flex-column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-center{
+    justify-content: center;
+    align-items: center;
+}
+
 .score-box{
     border: 2px solid blue;
     width: 30vw;
@@ -16,4 +26,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.matches-button{
+    border: 2px solid green;
+    width: 10vw;
+    height: 10vh;
+    background-color: rgb(255, 199, 199);
+    border-radius: 25px;
+    margin-left: 5px;
+    font-size: 40px;
 }
