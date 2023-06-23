@@ -11,7 +11,16 @@ function App() {
     const [availableMatches, setAvailableMatches] = useState<number>(MATCHES);
     return (
         <div className="App">
-            <h1>Total matches:{MATCHES}</h1>
+            <div className="flex-container content-space-between width100">
+                <button className="small-button restart" onClick={()=>{
+                    setAIMatches(0);
+                    setPlayerMatches(0);
+                    setAvailableMatches(MATCHES);
+                }}>Restart</button>
+                <h1>Total matches:{MATCHES}</h1>
+                <button className="small-button info">info</button>
+            </div>
+
             <h2>Available matches:{availableMatches}</h2>
             <Score playerMatches={playerMatches} AIMatches={AIMatches}></Score>
             <MatchesButtons availableMatches={availableMatches} setAvailableMatches={setAvailableMatches}

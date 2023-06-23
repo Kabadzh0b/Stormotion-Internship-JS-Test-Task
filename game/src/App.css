@@ -19,6 +19,14 @@
     align-items: center;
 }
 
+.content-space-between{
+    justify-content: space-between;
+}
+
+.width100{
+    width: 100vw;
+}
+
 .score-box{
     border: 2px solid blue;
     width: 30vw;
@@ -36,4 +44,20 @@
     border-radius: 25px;
     margin-left: 5px;
     font-size: 40px;
+}
+
+.small-button{
+    border-radius: 25px;
+    width: 75px;
+    height: 5vh;
+}
+
+.restart{
+    border: 2px solid #5a5aec;
+    background-color: #fa6060;
+}
+
+.info{
+    border: 2px solid #fa6060;
+    background-color: #5a5aec;
 }
